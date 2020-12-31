@@ -15,7 +15,7 @@ class Articles {
         cy.get(elements.inputDescription).type('Cypress')
         cy.get(elements.textAreaContent).type(faker.lorem.paragraph())
         cy.get(elements.inputTags).type('cypress')
-    } f
+    } 
 
     submeterFormulario() {
         cy.get(elements.buttonSubmit).click();
